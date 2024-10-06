@@ -1,6 +1,7 @@
-from pathlib import Path
+#from pathlib import Path
 import os
-import sys
-plot_output = Path("../Output/Plots")
-report_output = Path("../Output/Reports")
-data_folder = os.path.abspath("config.py")
+
+## file variables
+plot_output = os.path.abspath("../Output/Plots")
+report_output = os.path.abspath("../Output/Reports")
+data_folder = os.path.abspath("../Data")
